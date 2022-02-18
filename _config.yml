@@ -1,8 +1,9 @@
-title: Jekyll for Wiki
+# for details: https://jek4wik.github.io/Main
+title: Kinkie's wiki lab
 description:  > # this means to ignore newlines
-    Bootstrap project based on Jekyll to build a static Wiki
+    Assorted notetaking, testing using jeckyll as a wiki site as well
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "htpps://jek4wik.github.io"
+url: "htpps://kinkie.github.io"
 
 # Build settings
 markdown: kramdown
@@ -25,15 +26,15 @@ collections:
     output: true
     permalink: "/:path" 
     path: "" # avoid wiki in the url
-  wiki-legacy:
-    output: true
-    permalink: "/:path"
-    path: ""
-  special:
-    output: true
-    permalink: "/:path"
-    path: ""
-  global:
-    output: true
-    permalink: "/:path"
-    path: ""
+#  wiki-legacy:
+#    output: true
+#    permalink: "/:path"
+#    path: ""
+#  special:
+#    output: true
+#    permalink: "/:path"
+#    path: ""
+#  global:
+#    output: true
+#    permalink: "/:path"
+#    path: ""
