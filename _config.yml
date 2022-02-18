@@ -8,7 +8,6 @@ url: "htpps://kinkie.github.io"
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-asciidoc
   - jekyll-toc
 
 encoding: UTF-8
@@ -30,11 +29,11 @@ collections:
 #    output: true
 #    permalink: "/:path"
 #    path: ""
-#  special:
-#    output: true
-#    permalink: "/:path"
-#    path: ""
-#  global:
-#    output: true
-#    permalink: "/:path"
-#    path: ""
+  special:
+    output: true
+    permalink: "/:path"
+    path: ""
+  global:
+    output: true
+    permalink: "/:path"
+    path: ""
