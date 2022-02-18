@@ -9,6 +9,22 @@ url: "htpps://kinkie.github.io"
 markdown: kramdown
 plugins:
   - jekyll-toc
+  - jekyll-archives
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-last-modified-at
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate-v2
+  - jekyll-readme-index
+  - jekyll-relative-links
+  - jekyll-sass-converter
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-watch
 
 encoding: UTF-8
 lang: en # fr is also supported ; feel free to contribute other languages
